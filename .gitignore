@@ -13,6 +13,9 @@ admin_chat_ids.json
 *.xls
 report_groups.md
 
+# ===== 内部文档（含真实名单，不上传 GitHub）=====
+lark文档说明.md
+
 # ===== 日志与运行产物 =====
 *.log
 
