@@ -31,7 +31,7 @@ PROXY_PORT=7890
 $env:PYTHONUTF8='1'; $env:PYTHONIOENCODING='utf-8'; chcp.com 65001
 ```
 
-下文命令均用 `python` 代指 `D:\conda\envs\py311\python.exe`，且默认在项目目录 `d:\workbuddyspace\TG_App` 下执行。
+下文命令均用 `python` 代指 `D:\conda\envs\py311\python.exe`，且默认在项目目录 `\TG_App` 下执行。
 
 ---
 
