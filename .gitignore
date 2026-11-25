@@ -1,0 +1,33 @@
+# ===== 凭据与会话（绝对不能上传）=====
+.env
+.env.*
+!.env.example
+*.session
+*.session-journal
+
+# ===== 真实数据文件（含目标账户、群 ID、群名，一律忽略）=====
+delete_members.json
+target_chat_ids.json
+admin_chat_ids.json
+*.xlsx
+*.xls
+report_groups.md
+
+# ===== 日志与运行产物 =====
+*.log
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== 编辑器 / 工具配置 =====
+.vscode/
+.idea/
+.codebuddy/
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
